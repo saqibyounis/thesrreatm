@@ -1,0 +1,95 @@
+<resources>
+
+    <!--application name-->
+    <string name="app_name">The Stream</string>
+
+    <!--tab name and subtitle-->
+    <string name="tab_recent">New Channel</string>
+    <string name="tab_category">Category</string>
+    <string name="tab_favorite">Favorite</string>
+
+    <!--AdMob Ads-->
+    <string name="admob_app_id">ca-app-pub-5107556562590198~2432304465</string>
+    <string name="admob_banner_unit_id">ca-app-pub-5107556562590198/5385770869</string>
+    <string name="admob_interstitial_unit_id">ca-app-pub-5107556562590198/2292703667</string>
+    <string name="admob_native_ad_unit_id">ca-app-pub-5107556562590198/9634200464</string>
+
+    <!--StartApp Ads-->
+    <string name="startapp_app_id">205060168</string>
+
+    <!--navigation drawer menu name-->
+    <string name="drawer_recent">New Channel</string>
+    <string name="drawer_category">Category</string>
+    <string name="drawer_favorite">Favorite</string>
+    <string name="drawer_rate">Rate</string>
+    <string name="drawer_more">More</string>
+    <string name="drawer_share">Share</string>
+    <string name="drawer_about">About</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- play store application link i.e more apps -->
+    <string name="play_more_apps">https://play.google.com/store/apps/developer?id=Solodroid</string>
+
+    <!--app about information-->
+    <string name="about_app_name">Application Name</string>
+    <string name="about_app_version">Build Version</string>
+    <string name="about_app_email">Email</string>
+    <string name="about_app_copyright">Copyright</string>
+    <string name="about_app_rate">Rate</string>
+    <string name="about_app_more">More</string>
+    <string name="about_app_privacy_policy">Privacy Policy</string>
+    <string name="sub_about_app_version">Version 1.0.0</string>
+    <string name="sub_about_app_email">developer.solodroid@gmail.com</string>
+    <string name="sub_about_app_copyright">Copyright &#169; 2017 Solodroid Developer \n All rights reserved</string>
+    <string name="sub_about_app_rate">Give your rate and feedback</string>
+    <string name="sub_about_app_more">More apps from developer</string>
+    <string name="sub_about_app_privacy_policy">Privacy Policy of The Stream App</string>
+
+    <!--search-->
+    <string name="search">Search</string>
+    <string name="search_hint">Search&#8230;</string>
+
+    <!--share-->
+    <string name="share">Share</string>
+    <string name="share_title">I am live streaming</string>
+    <string name="share_content">I Would like to share this with you. Here You Can Download This Application from PlayStore</string>
+
+    <!--network-->
+    <string name="failed_text">Failed to Connect Internet!</string>
+    <string name="no_internet_text">No Internet Connection!</string>
+    <string name="network_required">Required Internet to Streaming the Channel!</string>
+
+    <!--error handling message-->
+    <string name="no_category_found">Oops, No category found!!</string>
+    <string name="no_post_found">Oops, no channel found!</string>
+    <string name="msg_search_input">Please Insert Keyword</string>
+
+    <!--favorite-->
+    <string name="favorite_added">Added to Favorite</string>
+    <string name="favorite_removed">Removed from Favorite</string>
+    <string name="no_favorite_found">What is your favorite&#8230; ?</string>
+
+    <!--close message-->
+    <string name="press_again_to_exit">Press again to exit app</string>
+    <string name="press_again_to_close_streaming">Press again to close streaming</string>
+
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_content">
+        <![CDATA[
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed haec quidem liberius ab eo dicuntur et saepius.
+            At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia?
+            Expectoque quid ad id, quod quaerebam, respondeas.
+            Duo Reges: constructio interrete. Verba tu fingas et ea dicas, quae non sentias?
+            Sed ea mala virtuti magnitudine obruebantur.
+            Effluit igitur voluptas corporis et prima quaeque avolat saepiusque relinquit causam paenitendi quam recordandi.
+            Dic in quovis conventu te omnia facere, ne doleas. Cur haec eadem Democritus?</p>
+
+            <p>Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit?
+            Quorum sine causa fieri nihil putandum est. Nosti, credo, illud:
+            Nemo pius est, qui pietatem-; Istic sum, inquit. Huius ego nunc auctoritatem sequens idem faciam.
+            Qui ita affectus, beatum esse numquam probabis.</p>
+        ]]>
+    </string>
+
+</resources>

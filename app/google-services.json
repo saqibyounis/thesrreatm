@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "612796116301",
+    "firebase_url": "https://liveshqiptvfalas.firebaseio.com",
+    "project_id": "liveshqiptvfalas",
+    "storage_bucket": "liveshqiptvfalas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612796116301:android:4ba1cc61a514b71f",
+        "android_client_info": {
+          "package_name": "com.gtt.liveshqiptvfalas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612796116301-qphvcm5bll2jgl3c97dh7rk3c9uosurq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZXFg5OUcaYSAy5Upd99BxXdAlxbBY3SU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612796116301-qphvcm5bll2jgl3c97dh7rk3c9uosurq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

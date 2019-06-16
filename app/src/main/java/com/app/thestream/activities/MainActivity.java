@@ -362,7 +362,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 return true;
 
             case R.id.insta:
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/shqip_it"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/shqip_itv/"));
                 MainActivity.this.startActivity(browserIntent);
                 /*if (!menuItem.isChecked()) {
                     menuItem.setChecked(true);

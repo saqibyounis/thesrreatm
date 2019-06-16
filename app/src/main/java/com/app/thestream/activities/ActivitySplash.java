@@ -1,6 +1,8 @@
 package com.app.thestream.activities;
 
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -42,7 +44,7 @@ public class ActivitySplash extends AppCompatActivity implements BlackListSearch
         setContentView(R.layout.activity_splash);
         // Write a message to the database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("liveshqiptvfalas");
+        DatabaseReference myRef = database.getReference("UpdateModel");
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -50,10 +52,22 @@ public class ActivitySplash extends AppCompatActivity implements BlackListSearch
                 // whenever data at this location is updated.
                 UpdateModel value = dataSnapshot.getValue(UpdateModel.class);
                 //Log.d(TAG, "Value is: " + value);
-                Toast.makeText(ActivitySplash.this, value.getApkv(), Toast.LENGTH_SHORT).show();
-                new BlackListScanTask(ActivitySplash.this, ActivitySplash.this).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                Config.updateapplink=value.getApklink();
+                PackageInfo pinfo = null;
+                try {
+                    pinfo = getPackageManager().getPackageInfo(getPackageName(), 0);
+                } catch (PackageManager.NameNotFoundException e) {
+                    e.printStackTrace();
+                }
+                String versionName = pinfo.versionName;
+                System.out.println(versionName+"=="+value.getApkv());
+                if(!versionName.equalsIgnoreCase(value.getApkv())){
 
+                    startActivity(new Intent(ActivitySplash.this,UpdateApp.class));
+                }else {
+                    new BlackListScanTask(ActivitySplash.this, ActivitySplash.this).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 
+                }
             }
 
             @Override

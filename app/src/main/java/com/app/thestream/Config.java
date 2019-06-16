@@ -2,6 +2,7 @@ package com.app.thestream;
 
 public class Config {
 
+    public static String updateapplink="";
     //your admin panel url
     public static final String ADMIN_PANEL_URL = "https://shikoshqiptv.xyz/";
 
